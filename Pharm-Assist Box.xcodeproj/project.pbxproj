@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC27AB322204FAE600B743CF /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27AB312204FAE500B743CF /* SelectTimeViewController.swift */; };
+		CC27AB342204FB6000B743CF /* SelectTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC27AB332204FB6000B743CF /* SelectTimePicker.swift */; };
+		CC6142B221C1E491003BA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6142B121C1E491003BA19F /* AppDelegate.swift */; };
+		CC6142B721C1E491003BA19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6142B521C1E491003BA19F /* Main.storyboard */; };
+		CC6142BC21C1E491003BA19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6142BA21C1E491003BA19F /* LaunchScreen.storyboard */; };
+		CC6142C421C1E59F003BA19F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC6142C321C1E59F003BA19F /* GoogleService-Info.plist */; };
+		CC7B972E22527E7A00533853 /* MedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B972D22527E7A00533853 /* MedInfoViewController.swift */; };
+		CC7B97302252848B00533853 /* SelectMedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B972F2252848B00533853 /* SelectMedViewController.swift */; };
+		CC7B9734225285E500533853 /* SelectMedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B9733225285E500533853 /* SelectMedPicker.swift */; };
+		CC85AA9421CB165900C5EB66 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85AA9321CB165900C5EB66 /* ScheduleViewController.swift */; };
+		CC85AA9621CB790D00C5EB66 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85AA9521CB790D00C5EB66 /* ScheduleCell.swift */; };
+		CC85AA9B21CB7A4100C5EB66 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC85AA9A21CB7A4100C5EB66 /* DateHeader.swift */; };
+		CC9E778921FB902B00B04528 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E778821FB902B00B04528 /* SelectViewController.swift */; };
+		CC9E778D21FB92DF00B04528 /* SelectPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E778C21FB92DF00B04528 /* SelectPicker.swift */; };
+		CCBB34412257FB94007A0032 /* ChangeSchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB34402257FB94007A0032 /* ChangeSchedViewController.swift */; };
+		CCCD2F2221C7346F00100BDA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD2F2121C7346F00100BDA /* HomeViewController.swift */; };
+		CCCD2F2421C738B100100BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCD2F2321C738B100100BDA /* Assets.xcassets */; };
+		CCD0F7C621C8AE080026D3D5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0F7C521C8AE080026D3D5 /* AccountViewController.swift */; };
+		CCEE179921F2482B00D2A961 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE179821F2482B00D2A961 /* QRViewController.swift */; };
+		CCEE179B21F2570C00D2A961 /* AddMedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE179A21F2570C00D2A961 /* AddMedViewController.swift */; };
+		CD79367B8B03551299DCF803 /* Pods_Pharm_Assist_Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0398570FE687462682A66E8 /* Pods_Pharm_Assist_Box.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0398570FE687462682A66E8 /* Pods_Pharm_Assist_Box.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharm_Assist_Box.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A7E7DFD95AD0A97FC8FD78 /* Pods-Pharm-Assist Box.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharm-Assist Box.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharm-Assist Box/Pods-Pharm-Assist Box.debug.xcconfig"; sourceTree = "<group>"; };
+		CC27AB312204FAE500B743CF /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		CC27AB332204FB6000B743CF /* SelectTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimePicker.swift; sourceTree = "<group>"; };
+		CC6142AE21C1E491003BA19F /* Pharm-Assist Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pharm-Assist Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6142B121C1E491003BA19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC6142B621C1E491003BA19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6142BB21C1E491003BA19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6142BD21C1E491003BA19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6142C321C1E59F003BA19F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC7B972D22527E7A00533853 /* MedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInfoViewController.swift; sourceTree = "<group>"; };
+		CC7B972F2252848B00533853 /* SelectMedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMedViewController.swift; sourceTree = "<group>"; };
+		CC7B9733225285E500533853 /* SelectMedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMedPicker.swift; sourceTree = "<group>"; };
+		CC85AA9321CB165900C5EB66 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		CC85AA9521CB790D00C5EB66 /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		CC85AA9A21CB7A4100C5EB66 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		CC9E778821FB902B00B04528 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		CC9E778C21FB92DF00B04528 /* SelectPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPicker.swift; sourceTree = "<group>"; };
+		CCBB34402257FB94007A0032 /* ChangeSchedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSchedViewController.swift; sourceTree = "<group>"; };
+		CCCD2F2121C7346F00100BDA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CCCD2F2321C738B100100BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD0F7C521C8AE080026D3D5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		CCEE179821F2482B00D2A961 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		CCEE179A21F2570C00D2A961 /* AddMedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedViewController.swift; sourceTree = "<group>"; };
+		CF8C8C322CE9521AB081B076 /* Pods-Pharm-Assist Box.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharm-Assist Box.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharm-Assist Box/Pods-Pharm-Assist Box.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6142AB21C1E491003BA19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD79367B8B03551299DCF803 /* Pods_Pharm_Assist_Box.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7C763593769AD409075A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0398570FE687462682A66E8 /* Pods_Pharm_Assist_Box.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC588D06225E60A20076E7E7 /* Account Page */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0F7C521C8AE080026D3D5 /* AccountViewController.swift */,
+			);
+			path = "Account Page";
+			sourceTree = "<group>";
+		};
+		CC6142A521C1E491003BA19F = {
+			isa = PBXGroup;
+			children = (
+				CC6142B021C1E491003BA19F /* Pharm-Assist Box */,
+				CC6142AF21C1E491003BA19F /* Products */,
+				D49D57464526EC2A05EA6B3D /* Pods */,
+				CA7C763593769AD409075A4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6142AF21C1E491003BA19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6142AE21C1E491003BA19F /* Pharm-Assist Box.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6142B021C1E491003BA19F /* Pharm-Assist Box */ = {
+			isa = PBXGroup;
+			children = (
+				CC85AA9D21CB7DF500C5EB66 /* View Controllers */,
+				CC6142C321C1E59F003BA19F /* GoogleService-Info.plist */,
+				CC6142B121C1E491003BA19F /* AppDelegate.swift */,
+				CC6142B521C1E491003BA19F /* Main.storyboard */,
+				CC6142BA21C1E491003BA19F /* LaunchScreen.storyboard */,
+				CC6142BD21C1E491003BA19F /* Info.plist */,
+				CCCD2F2321C738B100100BDA /* Assets.xcassets */,
+			);
+			path = "Pharm-Assist Box";
+			sourceTree = "<group>";
+		};
+		CC7B972C22527E3800533853 /* MedInfo Page */ = {
+			isa = PBXGroup;
+			children = (
+				CC7B972D22527E7A00533853 /* MedInfoViewController.swift */,
+				CC7B972F2252848B00533853 /* SelectMedViewController.swift */,
+				CC7B9733225285E500533853 /* SelectMedPicker.swift */,
+				CCBB34402257FB94007A0032 /* ChangeSchedViewController.swift */,
+			);
+			path = "MedInfo Page";
+			sourceTree = "<group>";
+		};
+		CC85AA9721CB797200C5EB66 /* Schedule Page */ = {
+			isa = PBXGroup;
+			children = (
+				CC85AA9321CB165900C5EB66 /* ScheduleViewController.swift */,
+				CC85AA9521CB790D00C5EB66 /* ScheduleCell.swift */,
+				CC85AA9A21CB7A4100C5EB66 /* DateHeader.swift */,
+			);
+			path = "Schedule Page";
+			sourceTree = "<group>";
+		};
+		CC85AA9D21CB7DF500C5EB66 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC588D06225E60A20076E7E7 /* Account Page */,
+				CC7B972C22527E3800533853 /* MedInfo Page */,
+				CC85AA9721CB797200C5EB66 /* Schedule Page */,
+				CCCD2F2121C7346F00100BDA /* HomeViewController.swift */,
+				CC9E778A21FB90EF00B04528 /* Add Med Page */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CC9E778A21FB90EF00B04528 /* Add Med Page */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE179821F2482B00D2A961 /* QRViewController.swift */,
+				CCEE179A21F2570C00D2A961 /* AddMedViewController.swift */,
+				CC9E778821FB902B00B04528 /* SelectViewController.swift */,
+				CC9E778C21FB92DF00B04528 /* SelectPicker.swift */,
+				CC27AB312204FAE500B743CF /* SelectTimeViewController.swift */,
+				CC27AB332204FB6000B743CF /* SelectTimePicker.swift */,
+			);
+			path = "Add Med Page";
+			sourceTree = "<group>";
+		};
+		D49D57464526EC2A05EA6B3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A7E7DFD95AD0A97FC8FD78 /* Pods-Pharm-Assist Box.debug.xcconfig */,
+				CF8C8C322CE9521AB081B076 /* Pods-Pharm-Assist Box.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6142AD21C1E491003BA19F /* Pharm-Assist Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6142C021C1E491003BA19F /* Build configuration list for PBXNativeTarget "Pharm-Assist Box" */;
+			buildPhases = (
+				7983162A1A01B43C1C706B8D /* [CP] Check Pods Manifest.lock */,
+				CC6142AA21C1E491003BA19F /* Sources */,
+				CC6142AB21C1E491003BA19F /* Frameworks */,
+				CC6142AC21C1E491003BA19F /* Resources */,
+				7BC309F90F6052786B875DAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pharm-Assist Box";
+			productName = "Pharm-Assist Box";
+			productReference = CC6142AE21C1E491003BA19F /* Pharm-Assist Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6142A621C1E491003BA19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chris Kasper";
+				TargetAttributes = {
+					CC6142AD21C1E491003BA19F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CC6142A921C1E491003BA19F /* Build configuration list for PBXProject "Pharm-Assist Box" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6142A521C1E491003BA19F;
+			productRefGroup = CC6142AF21C1E491003BA19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6142AD21C1E491003BA19F /* Pharm-Assist Box */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6142AC21C1E491003BA19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6142BC21C1E491003BA19F /* LaunchScreen.storyboard in Resources */,
+				CC6142C421C1E59F003BA19F /* GoogleService-Info.plist in Resources */,
+				CCCD2F2421C738B100100BDA /* Assets.xcassets in Resources */,
+				CC6142B721C1E491003BA19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7983162A1A01B43C1C706B8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharm-Assist Box-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC309F90F6052786B875DAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pharm-Assist Box/Pods-Pharm-Assist Box-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pharm-Assist Box/Pods-Pharm-Assist Box-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6142AA21C1E491003BA19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85AA9B21CB7A4100C5EB66 /* DateHeader.swift in Sources */,
+				CC7B9734225285E500533853 /* SelectMedPicker.swift in Sources */,
+				CC9E778D21FB92DF00B04528 /* SelectPicker.swift in Sources */,
+				CC6142B221C1E491003BA19F /* AppDelegate.swift in Sources */,
+				CC27AB322204FAE600B743CF /* SelectTimeViewController.swift in Sources */,
+				CCCD2F2221C7346F00100BDA /* HomeViewController.swift in Sources */,
+				CCBB34412257FB94007A0032 /* ChangeSchedViewController.swift in Sources */,
+				CCEE179B21F2570C00D2A961 /* AddMedViewController.swift in Sources */,
+				CCEE179921F2482B00D2A961 /* QRViewController.swift in Sources */,
+				CC7B97302252848B00533853 /* SelectMedViewController.swift in Sources */,
+				CCD0F7C621C8AE080026D3D5 /* AccountViewController.swift in Sources */,
+				CC85AA9421CB165900C5EB66 /* ScheduleViewController.swift in Sources */,
+				CC9E778921FB902B00B04528 /* SelectViewController.swift in Sources */,
+				CC27AB342204FB6000B743CF /* SelectTimePicker.swift in Sources */,
+				CC85AA9621CB790D00C5EB66 /* ScheduleCell.swift in Sources */,
+				CC7B972E22527E7A00533853 /* MedInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC6142B521C1E491003BA19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6142B621C1E491003BA19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6142BA21C1E491003BA19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6142BB21C1E491003BA19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6142BE21C1E491003BA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC6142BF21C1E491003BA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6142C121C1E491003BA19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A7E7DFD95AD0A97FC8FD78 /* Pods-Pharm-Assist Box.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT6P664P5F;
+				INFOPLIST_FILE = "Pharm-Assist Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CKasper.Pharm-Assist-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6142C221C1E491003BA19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8C8C322CE9521AB081B076 /* Pods-Pharm-Assist Box.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BT6P664P5F;
+				INFOPLIST_FILE = "Pharm-Assist Box/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CKasper.Pharm-Assist-Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6142A921C1E491003BA19F /* Build configuration list for PBXProject "Pharm-Assist Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6142BE21C1E491003BA19F /* Debug */,
+				CC6142BF21C1E491003BA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6142C021C1E491003BA19F /* Build configuration list for PBXNativeTarget "Pharm-Assist Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6142C121C1E491003BA19F /* Debug */,
+				CC6142C221C1E491003BA19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6142A621C1E491003BA19F /* Project object */;
+}
